@@ -1,0 +1,14 @@
+content-type: application/json; charset=utf-8
+Simply indicates what the content type of the returned content is.
+
+access-control-allow-origin: _
+Indicated whether or not the response can be shared... adding _ tells browsers to allow requests from any origin to access the content.
+
+etag: W/"bd-1Zq9yzp8MZXyGvDZ4bXc8bn/Rp0"
+Entity tag. This allows the web server to determine if it needs to resend a full response, or if there is a cache locally.
+
+content-length: 189
+Simply tells the size of the message body, given in bytes.
+
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Allows the server to give an alternative netowrk location that can be treated as authoritative for that origin in future requests. This helps manage server traffic.
